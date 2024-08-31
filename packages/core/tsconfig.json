@@ -1,0 +1,18 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "#enums": [
+                "./src/enums/index.ts"
+            ],
+            "#ws": [
+                "./src/ws/manager.ts"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
